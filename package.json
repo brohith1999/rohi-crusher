@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://<your-github-username>.github.io/rohi-crusher",
+  "homepage": "https://brohith1999.github.io/rohi-crusher/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
