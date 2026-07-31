@@ -1,0 +1,39 @@
+{
+  "name": "crusher-weighbridge-manager",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://<your-github-username>.github.io/rohi-crusher",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^9.2.0",
+    "@mui/material": "^9.2.0",
+    "@tailwindcss/postcss": "^4.3.3",
+    "autoprefixer": "^10.5.4",
+    "chart.js": "^4.5.1",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.24",
+    "react": "^19.2.7",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.18.2",
+    "tailwindcss": "^4.3.3",
+    "uuid": "^14.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "oxlint": "^1.71.0",
+    "vite": "^8.1.1"
+  }
+}

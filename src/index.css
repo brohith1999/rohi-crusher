@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Oswald", "Arial Narrow", sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --color-quarry-950: #0e1215;
+  --color-quarry-900: #14191d;
+  --color-quarry-850: #191f24;
+  --color-quarry-800: #1e252b;
+  --color-quarry-700: #2a333a;
+  --color-quarry-600: #3b4750;
+  --color-quarry-500: #5a6870;
+  --color-quarry-400: #8a969c;
+  --color-quarry-200: #c9d0d3;
+  --color-quarry-100: #e7e9e6;
+  --color-quarry-50:  #f4f3ee;
+
+  --color-amber-signal: #f2a93b;
+  --color-amber-signal-dark: #c9861f;
+  --color-steel: #3e7cb1;
+  --color-steel-dark: #2c5a86;
+  --color-danger: #d1483f;
+  --color-success: #4c9a6a;
+}
+
+:root {
+  color-scheme: light;
+}
+html.dark {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+.font-mono-data {
+  font-family: var(--font-mono);
+}
+
+/* Ticket / weigh-slip signature texture */
+.ticket-notch {
+  background-image:
+    radial-gradient(circle 6px at 0 50%, transparent 6px, currentColor 6.5px),
+    radial-gradient(circle 6px at 100% 50%, transparent 6px, currentColor 6.5px);
+}
+
+.perforated {
+  background-image: repeating-linear-gradient(
+    to right,
+    currentColor 0,
+    currentColor 6px,
+    transparent 6px,
+    transparent 14px
+  );
+  height: 2px;
+  opacity: 0.35;
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-quarry-500); border-radius: 8px; }
+
+@media print {
+  body * { visibility: hidden; }
+  #print-area, #print-area * { visibility: visible; }
+  #print-area { position: absolute; top: 0; left: 0; width: 100%; }
+  .no-print { display: none !important; }
+}
