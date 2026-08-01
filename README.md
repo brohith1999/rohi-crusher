@@ -1,4 +1,4 @@
-# Sri Balaji Metal Crushers — Crusher & Weighbridge Manager
+# Sri Rohith Balaji Metal Crushers — Crusher & Weighbridge Manager
 
 A frontend-only Crusher Production & Weighbridge Management System. Built as a static
 single-page app with **React + Vite**, styled with **Tailwind CSS** and **Material UI**,
