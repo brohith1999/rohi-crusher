@@ -23,7 +23,7 @@
     },
     {
       "id": "cus_2",
-      "name": "SRM Builders",
+      "name": "Sai Builders",
       "phone": "9865123478",
       "address": "Karur Bypass, Karur",
       "gstin": "33BBCPL5678D1Z2",
@@ -31,7 +31,7 @@
     },
     {
       "id": "cus_3",
-      "name": "Lakshmi Ready Mix",
+      "name": "rosh Ready Mix",
       "phone": "9944556677",
       "address": "NH45, Dindigul",
       "gstin": "33CCDPL9012E1Z9",
@@ -39,7 +39,7 @@
     },
     {
       "id": "cus_4",
-      "name": "Anand Infra Projects",
+      "name": "gvm Infra Projects",
       "phone": "9789034561",
       "address": "Palani Road, Dindigul",
       "gstin": "",
@@ -55,7 +55,7 @@
     },
     {
       "id": "cus_6",
-      "name": "Sri Ranga Housing",
+      "name": "sekar babu Housing",
       "phone": "9600112233",
       "address": "Oddanchatram",
       "gstin": "33DDEPL3456F1Z1",
@@ -65,7 +65,7 @@
   "suppliers": [
     {
       "id": "sup_1",
-      "name": "Kaveri Diesel Depot",
+      "name": "karthi Depot",
       "phone": "9865001122",
       "address": "Dindigul Town",
       "gstin": "33AAFPL7788G1Z4",
@@ -73,7 +73,7 @@
     },
     {
       "id": "sup_2",
-      "name": "Balamurugan Spares & Tyres",
+      "name": "Vidhya Spares & Tyres",
       "phone": "9787654321",
       "address": "Palani Road, Dindigul",
       "gstin": "",
